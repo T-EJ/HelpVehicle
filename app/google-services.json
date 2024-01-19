@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "746632030719",
+    "project_id": "loginsignup-auth-bcc09",
+    "storage_bucket": "loginsignup-auth-bcc09.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:746632030719:android:1b6ddb035f3c5761929fca",
+        "android_client_info": {
+          "package_name": "com.example.helpvehicle"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC20Nbm4qLtuPnWzZFqRnrnYCUW5n3fF0s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
