@@ -106,15 +106,16 @@
             android:layout_gravity="center"
             android:orientation="horizontal">
 
-            <ImageView
+            <Button
+                android:id="@+id/Gbutton"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:src="@drawable/g_logo"
+                android:background="@drawable/g_logo"
                 android:layout_marginTop="5dp"
                 android:layout_marginBottom="5dp"
                 android:layout_marginStart="5dp"
-                android:layout_marginEnd="10dp"
-                />
+                android:layout_marginEnd="10dp"/>
+
 
             <TextView
                 android:layout_width="wrap_content"

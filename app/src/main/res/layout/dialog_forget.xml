@@ -37,6 +37,8 @@
             android:text="Enter your email address"
             android:textColor="@color/yellow"
             android:textSize="16sp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
             app:layout_constraintBottom_toTopOf="@id/editBox"
             app:layout_constraintTop_toBottomOf="@id/forgotTitle"
             tools:ignore="TextContrastCheck"
@@ -50,13 +52,21 @@
             android:layout_marginStart="20sp"
             android:layout_marginBottom="30dp"
             android:backgroundTint="@android:color/white"
-            android:maxLines="1"
+            android:maxLines="2"
             android:textColor="@color/yellow"
             android:textSize="16sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/forgotTitle"
             tools:ignore="Autofill,LabelFor,TextFields,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <View
+            android:id="@+id/dividerLine"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="@android:color/black"             app:layout_constraintBottom_toBottomOf="@id/editBox"
+            app:layout_constraintEnd_toEndOf="@id/editBox"
+            app:layout_constraintStart_toStartOf="@id/editBox" />
 
         <Button
             android:id="@+id/btnCancel"
